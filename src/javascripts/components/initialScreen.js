@@ -11,9 +11,6 @@ const initialScreen = () => {
     <div class='bearCardFlex'>
       <div id='bearCards'></div>
     </div>
-    <div class='bearAwardsFlex'>
-      <div id='bearAwards'></div>
-    </div>
   `;
   renderToDom('body', domString);
 };
