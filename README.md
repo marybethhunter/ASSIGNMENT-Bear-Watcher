@@ -1,10 +1,8 @@
-# Bear Watcher! [![Netlify Status](https://api.netlify.com/api/v1/badges/7c13da74-3199-4680-a5e3-f3e8c052487f/deploy-status)](https://app.netlify.com/sites/mbh-bear-watcher/deploys)
+# Bear Watcher!
 
 Each year between July and September brown bears in the Katmai National Park congregate along the Brooks River. This river is one of the main rivers that Sockeye Salmon swim up to spawn. The brown bears wait in the shallows of the river and catch the salmon as they jump over rocks.
 
 Use this site to track the bears you spot along the river!
-
-[View App](https://mbh-bear-watcher.netlify.app/)
 
 ## About the User
 -As a user, when the page loads, I should see a bootstrap form that allows me to enter in a bear name and image url for a new bear.
@@ -17,7 +15,7 @@ Use this site to track the bears you spot along the river!
 - There is no limit to the number of bears you can track on Bear Watcher!
 
 ## Video Walkthrough of APP NAME 
-https://www.loom.com/share/829b90d831ea441ba2db6bea724af210
+https://www.loom.com/share/fa3056e914d64900bfe1dc4923cc038c
 
 ## Relevant Links
 - [Wireframes](https://www.figma.com/file/WzMk9ECcknwmAkkgwB6vBI/Untitled?node-id=0%3A1)
