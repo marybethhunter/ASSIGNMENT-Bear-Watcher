@@ -1,52 +1,33 @@
-# Bear Watcher
-## Introduction
-Each year between July and September brown bears in the Katmai National Park congregate along the Brooks River.  This river is one of the main rivers that Sockeye Salmon swim up to spawn.  The brown bears wait in the shallows of the river and catch the salmon as they jump over rocks.  Want to see it in [ACTION](https://explore.org/livecams/brown-bears/brown-bear-salmon-cam-brooks-falls)?
+# Bear Watcher! [![Netlify Status](https://api.netlify.com/api/v1/badges/7c13da74-3199-4680-a5e3-f3e8c052487f/deploy-status)](https://app.netlify.com/sites/mbh-bear-watcher/deploys)
 
-You have been tasked with creating a site scientists and park ranger can use to track these bears.
+Each year between July and September brown bears in the Katmai National Park congregate along the Brooks River. This river is one of the main rivers that Sockeye Salmon swim up to spawn. The brown bears wait in the shallows of the river and catch the salmon as they jump over rocks.
 
-## Get Started
+Use this site to track the bears you spot along the river!
 
-1. Clone this repo
-```
-$ git clone github-url
-$ cd repo-name
-```
-2. Follow the instructions from the ["Starting the Project" Instructions](https://github.com/codetracker-learning/webpack-template#starting-the-project) to ensure you make all the updates to get the project started.
+[View App](https://mbh-bear-watcher.netlify.app/)
 
-3. Install Packages
+## About the User
+-As a user, when the page loads, I should see a bootstrap form that allows me to enter in a bear name and image url for a new bear.
+-As a user, when I click the submit button on the new bear form a bear should be added to the page.
+-As a user, when there are bears that are being tracked (ie after I have added one), I should see all their information displayed on a card.
 
-```
-$ sudo npm install
-$ npm start
-```
+## Features
+- When the page loads, a form and a description of the river and bears will appear
+- When you use the form to submit a bear's name and image link, a card will appear with that bear's information on it.
+- There is no limit to the number of bears you can track on Bear Watcher!
 
-## Planning Requirements
-* Create a github project on this repo
-* Create feature tickets for this assignment
-* Create wireframes for this project and attach them to the appropriate project ticket.
+## Video Walkthrough of APP NAME 
+https://www.loom.com/share/829b90d831ea441ba2db6bea724af210
 
-## Technical Requirements
-* You must use [Boostrap](https://getbootstrap.com/) to style your page components.
-* Your JS file should be comprised of functions, no actions should happen in your code outside of a function
-* Your HTML and JS should all have proper indentations
-* You should be have Modular Code
-* Your JS code should be eslint error and warning free
+## Relevant Links
+- [Wireframes](https://www.figma.com/file/WzMk9ECcknwmAkkgwB6vBI/Untitled?node-id=0%3A1)
+- [Project Board](https://github.com/marybethhunter/ASSIGNMENT-Bear-Watcher/projects/1)
 
-## User stories
-* As a user, when the page loads, I should see a bootstrap form that allows me to enter in a bear name and image url for a new bear.
-* As a user, when I click the submit button on the new bear form a bear should be added to the page.
-* As a user, when there are bears that are being tracked (ie after I have added one), I should see all their information displayed on a card.
+## Project Screenshots
 
-## Dev Notes
-* Your project should have 2 modules - bearForm and river.
-  * bearForm - should be the form
-  * river - should display all the bears
+<img width="960" alt="bear watcher home page screenshot" src="https://user-images.githubusercontent.com/86667443/130522306-72ca9c04-07e1-4a89-b032-65b859b95128.png">
 
-## Bonus #1: Tracking Fishing
-* As a user, I should be able to click something on each bear to indicate it has just tried to catch a fish.
-* As a user, I should be able to click something on each bear to indicate it has just successfully caught a fish.
-* As a user, looking at a bear card I should see time stamps and statuses for each time a bear caught a fish or attempted to catch a fish
-* As a user, looking at a bear card, I should see a total number of fish caught tally.
+<img width="960" alt="screenshot of bears added to the site" src="https://user-images.githubusercontent.com/86667443/130522366-aa81ee32-206b-4506-8f34-33335686c6bc.png">
 
-## Bonus #2: Fattest Bear Award
-Each year in early september one bear is awarded the Fattest Bear award.  This award goes to the bear who gains the most weight between July and September.  Create an awards section on your application and award GOLD to the bear who has eaten the most fish, SILVER to the bear with the second most eaten fish, and BRONZE to the bear with the third most eaten fish.  Where applicable your application should show two winners for an award if the number of fish is tied.
+## Contributors
+- [Mary Beth Hunter](https://github.com/marybethhunter)
